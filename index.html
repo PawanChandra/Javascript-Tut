@@ -11,5 +11,33 @@
         Hey, wanna know the basic of html and css if yes then stay tuned with us !! 
     </p>
     <h3>This heading is added in git hub</h3>
+    <form id="add_student_form" method="post">
+        <table>
+            <tr><td>Name</td>
+            <td><input type="text" id="txt_name" name="Name"></td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td><input type="text" id="txt_mobile" name="Mobile"></td>
+            </tr>
+            <tr><td>Email</td>
+            <td><input type="email" id="txt_email" name="Email"></td>
+            </tr>
+            <tr><td>Gender</td>
+            <td><input type="radio" id="txt_gender" value="Male" name="Gender">Male<input type="radio" value="Female" id="txt_gender" name="Gender">Female</td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><select>
+                    <option value="0">select city</option>
+                    <option value="10">Lucknow</option>
+                    <option value="20">Sitapur</option>
+                </select></td>
+            </tr>
+            <tr><td></td>
+                <td><input type="submit" value="Submit" id="btn_submit"></td></tr>
+        </table>
+    </form>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

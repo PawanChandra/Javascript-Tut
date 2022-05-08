@@ -1,0 +1,1 @@
+document.getElementById("txt_name").innerHTML='Pawan Kr';
